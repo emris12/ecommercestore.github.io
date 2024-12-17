@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EQUIPMENT STORE</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .cart a {
+    color: black;
+    background-color:black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    background: url(alnasar.jpg) no-repeat center; 
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero .shop-now-btn {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero .shop-now-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Product Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+.category {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category h3 {
+    margin: 15px 0;
+}
+
+.category a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.category a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Home</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productpage.html">Product</a></li>
+                <li><a href="shoppingcart.html">Shoppingcart</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#">WELCOME</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to the Sports Equipment Site!</h2>
+        <p>Great deals on the best products.</p>
+        <a href="#" class="shop-now-btn">Shop Now</a>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section class="categories">
+        <h2>Clothing</h2>
+        <div class="category">
+            <img src="alnasar.jpg" alt="Categories">
+            <h3>Cleat</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="manu.jpg" alt="Jerseys">
+            <h3>Jerseys</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="./boot/glov1.jpg" alt="gloves">
+            <h3>Gloves</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="eplball.jpg" alt="Balls">
+            <h3>EPL Balls</h3>
+            <a href="#">Shop Now</a>
+         </div>
+         <div class="category">
+            <img src="./boot/socks.jpg" alt="Socks">
+            <h3>Socks</h3>
+            <a href="#">Shop Now</a>
+         </div> 
+         <div class="category">
+            <img src="./boot/short.jpg" alt="Shorts">
+            <h3>Shorts</h3>
+            <a href="#">Shop Now</a>
+         </div>        
+    </section>
+    <section class="categories">
+        <h2>Tackle</h2>
+        <div class="category">
+            <img src="./boot/helmet1.jpg" alt="Categories">
+            <h3>Helmet</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="./boot/chin.jpg" alt="Jerseys">
+            <h3>Chinstrap</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="./boot/realmad.jpg" alt="Others">
+            <h3>Shinguard</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="epllogo.jpg" alt="Accessories">
+            <h3>Shoulder Pad</h3>
+            <a href="#">Shop Now</a>
+         </div>
+         <div class="category">
+            <img src="gb.jpg" alt="Accessories">
+            <h3>Paddle girdle</h3>
+            <a href="#">Shop Now</a>
+         </div> 
+         <div class="category">
+            <img src="./boot/knee.jpg" alt="Accessories">
+            <h3>Kneepad</h3>
+            <a href="#">Shop Now</a>
+         </div>        
+    </section>
+    <section class="categories">
+        <h2>Others</h2>
+        <div class="category">
+            <img src="alnasar.jpg" alt="Categories">
+            <h3>Water bottle</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="manu.jpg" alt="Jerseys">
+            <h3>Gearbag</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="./boot/realmad.jpg" alt="Others">
+            <h3>Practice Jersey</h3>
+            <a href="#">Shop Now</a>
+        </div>
+        <div class="category">
+            <img src="epllogo.jpg" alt="Accessories">
+            <h3>Cones</h3>
+            <a href="#">Shop Now</a>
+         </div>
+         <div class="category">
+            <img src="gb.jpg" alt="Accessories">
+            <h3>Gear Bage</h3>
+            <a href="#">Shop Now</a>
+         </div> 
+         <div class="category">
+            <img src="vincent.jpg" alt="Accessories">
+            <h3>Short</h3>
+            <a href="#">Shop Now</a>
+         </div>        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>

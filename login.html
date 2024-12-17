@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LogintoStore</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.login-btn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: purple;
+}
+
+/* Sign Up Link */
+.login-container p {
+    margin-top: 20px;
+}
+
+.login-container a {
+    color: purple;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+</style>
+<body>
+
+    <!-- Login Form Section -->
+    <div class="login-container">
+        <h2>Login to Your Account</h2>
+        <form id="loginForm" action="#" method="post">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+</body>
+</html>
